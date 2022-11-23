@@ -59,7 +59,7 @@ public class CsvFileController {
         return ResponseEntity.ok(csvFileService.findByCode(code));
     }
 
-    @GetMapping("deleteAll")
+    @GetMapping("/deleteAll")
     public ResponseEntity<ResponseDto> deleteAll() {
         try {
             csvFileService.deleteAll();
