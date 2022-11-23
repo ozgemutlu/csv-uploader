@@ -11,7 +11,7 @@ Database Password =
 Requests\
 /upload (POST) = uploads csv file\
 /list (GET) = lists all the data\
-/listByCode (GET) = lists all the data by code\
+/listByCode (POST) = lists all the data by code\
 /deleteAll (GET) = deletes all the data
 
 schema.sql file can be found in resources directory.
