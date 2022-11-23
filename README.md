@@ -9,9 +9,9 @@ Database Username = sa\
 Database Password =
 
 Requests\
-/upload (POST) = uploads csv file
-/list (GET) = lists all thedata
-/listByCode (GET) = lists all the data by code
+/upload (POST) = uploads csv file\
+/list (GET) = lists all thedata\
+/listByCode (GET) = lists all the data by code\
 /deleteAll (GET) = deletes all the data
 
 schema.sql file can be found in resources directory.
